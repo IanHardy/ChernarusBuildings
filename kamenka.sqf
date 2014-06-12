@@ -8198,17 +8198,6 @@ if (true) then
   _this setPos [1283.964, 2540.3398, 3.8146973e-006];
 };
 
-_unit_9 = objNull;
-if (true) then
-{
-  _this = _group_0 createUnit ["frb_stealth_rifleman", [1355.9602, 2503.8743, 2.3841858e-006], [], 0, "CAN_COLLIDE"];
-  _unit_9 = _this;
-  _this setDir -5.2477174;
-  _this setUnitAbility 0.60000002;
-  if (true) then {_group_0 selectLeader _this;};
-  if (true) then {selectPlayer _this;};
-};
-
 _vehicle_2442 = objNull;
 if (true) then
 {
