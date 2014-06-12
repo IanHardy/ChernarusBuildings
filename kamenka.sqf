@@ -1,7 +1,7 @@
 /*
-  CHERNARUS ENHANCEMENTS - Kamenka
-  ------------------------------------------------------------
-    New City, Tikhaya Zastava by Ian Hardy - Ixxo, blackwiddow
+  CHERNARUS ENHANCEMENTS - New city, west of Kamenka
+  ----------------------------------------------------------------
+    Tikhaya Zastava, West Kamenka by Ian Hardy - Ixxo, blackwiddow
     Email: blackwiddow20@hotmail.co.uk
     Steam: blackwiddow20
 */
