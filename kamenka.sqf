@@ -1,6 +1,6 @@
 /*
   CHERNARUS ENHANCEMENTS - Kamenka
-  --------------------------------------------------------------
+  ------------------------------------------------------------
     New City, Kamenka Zastava by Ian Hardy - Ixxo, blackwiddow
     Email: blackwiddow20@hotmail.co.uk
     Steam: blackwiddow20
@@ -7146,7 +7146,7 @@ if (true) then
 _vehicle_1893 = objNull;
 if (true) then
 {
-  _this = createVehicle ["MAP_Hlidac_budka", [1190.929, 2323.7351, -0.058909606], [], 0, "CAN_COLLIDE"];
+  _this = createVehicle ["Land_Hlidac_budka", [1190.929, 2323.7351, -0.058909606], [], 0, "CAN_COLLIDE"];
   _vehicle_1893 = _this;
   _this setDir -134.15527;
   _this setPos [1190.929, 2323.7351, -0.058909606];
@@ -7572,7 +7572,7 @@ if (true) then
 _vehicle_2099 = objNull;
 if (true) then
 {
-  _this = createVehicle ["MAP_Hlidac_budka", [1155.8848, 2259.072, 1.9099423], [], 0, "CAN_COLLIDE"];
+  _this = createVehicle ["Land_Hlidac_budka", [1155.8848, 2259.072, 1.9099423], [], 0, "CAN_COLLIDE"];
   _vehicle_2099 = _this;
   _this setDir -504.4339;
   _this setVehicleInit "this setvectorup [0,0,1]";
