@@ -1,5 +1,5 @@
-Chernarus Buildings
-===================
+Chernarus Enhancements
+======================
 
 Custom areas created for use in DayZ Epoch Chernarus
 
