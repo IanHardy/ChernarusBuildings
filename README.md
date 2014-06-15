@@ -1,5 +1,5 @@
-Chernarus Enhancements
-======================
+Ixxo's Chernarus Enhancements
+=============================
 
 Custom areas created for use in DayZ Epoch - Chernarus.
 
