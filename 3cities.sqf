@@ -7240,7 +7240,7 @@ if (true) then
 _vehicle_5920 = objNull;
 if (true) then
 {
-  _this = createVehicle ["MAP_repair_center", [10006.709, 1859.5774, -0.32177103], [], 0, "CAN_COLLIDE"];
+  _this = createVehicle ["Land_repair_center", [10006.709, 1859.5774, -0.32177103], [], 0, "CAN_COLLIDE"];
   _vehicle_5920 = _this;
   _this setDir -89.865891;
   _this setPos [10006.709, 1859.5774, -0.32177103];
