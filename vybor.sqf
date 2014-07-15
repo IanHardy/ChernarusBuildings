@@ -1,7 +1,7 @@
 /*
   CHERNARUS ENHANCEMENTS - Vybor
-  ----------------------------------------------------
-    Redeveloped Vybor by Ian Hardy - Ixxo, blackwiddow
+  -------------------------------------------------
+    Expanded Vybor by Ian Hardy - Ixxo, blackwiddow
     Email: blackwiddow20@hotmail.co.uk
     Steam: blackwiddow20
 */
@@ -1121,6 +1121,7 @@ if (true) then
   _this = createVehicle ["MAP_Piskoviste", [4078.9746, 8861.5098, 0.13071278], [], 0, "CAN_COLLIDE"];
   _vehicle_889 = _this;
   _this setDir 0.015840322;
+  _this setVehicleInit "this allowDammage false;this enableSimulation false;";
   _this setPos [4078.9746, 8861.5098, 0.13071278];
 };
 
@@ -1130,6 +1131,7 @@ if (true) then
   _this = createVehicle ["MAP_Piskoviste", [4082.8076, 8861.3633, 0.49859411], [], 0, "CAN_COLLIDE"];
   _vehicle_891 = _this;
   _this setDir 4.5689578;
+  _this setVehicleInit "this allowDammage false;this enableSimulation false;";
   _this setPos [4082.8076, 8861.3633, 0.49859411];
 };
 
