@@ -1,12 +1,11 @@
 /*
-  CHERNARUS ENHANCEMENTS - New city, west of Kamenka
-  ----------------------------------------------------------------
-    Tikhaya Zastava, West Kamenka by Ian Hardy - Ixxo, blackwiddow
+  CHERNARUS ENHANCEMENTS - New City, West of Kamenka
+  ----------------------------------------------------------------------------
+    New city west of Kamenka, Tikhaya Zastava by Ian Hardy - Ixxo, blackwiddow
     Email: blackwiddow20@hotmail.co.uk
     Steam: blackwiddow20
 */
  
-
 if (isServer) then {
 
 _vehicle_1 = objNull;
@@ -1494,6 +1493,7 @@ if (true) then
   _this = createVehicle ["MAP_Piskoviste", [1099.4967, 2339.114], [], 0, "CAN_COLLIDE"];
   _vehicle_173 = _this;
   _this setDir -66.972153;
+  _this setVehicleInit "this allowDammage false;this enableSimulation false;";
   _this setPos [1099.4967, 2339.114];
 };
 
@@ -4234,6 +4234,7 @@ if (true) then
   _this = createVehicle ["MAP_garbage_paleta", [1237.7673, 2561.6201, -1.9073486e-006], [], 0, "CAN_COLLIDE"];
   _vehicle_607 = _this;
   _this setDir 69.731735;
+  _this setVehicleInit "this allowDammage false;this enableSimulation false;";
   _this setPos [1237.7673, 2561.6201, -1.9073486e-006];
 };
 
@@ -4252,6 +4253,7 @@ if (true) then
   _this = createVehicle ["MAP_garbage_paleta", [1099.5205, 2400.54, -5.2452087e-006], [], 0, "CAN_COLLIDE"];
   _vehicle_609 = _this;
   _this setDir 18.004923;
+  _this setVehicleInit "this allowDammage false;this enableSimulation false;";
   _this setPos [1099.5205, 2400.54, -5.2452087e-006];
 };
 
@@ -4366,6 +4368,7 @@ if (true) then
   _this = createVehicle ["MAP_garbage_paleta", [1299.4769, 2436.4341, 1.4305115e-006], [], 0, "CAN_COLLIDE"];
   _vehicle_623 = _this;
   _this setDir 28.417963;
+  _this setVehicleInit "this allowDammage false;this enableSimulation false;";
   _this setPos [1299.4769, 2436.4341, 1.4305115e-006];
 };
 
@@ -4720,10 +4723,10 @@ if (true) then
 _vehicle_678 = objNull;
 if (true) then
 {
-  _this = createVehicle ["Land_Misc_PowerStation", [1053.8208, 2324.5618, -0.0072989352], [], 0, "CAN_COLLIDE"];
+  _this = createVehicle ["Land_Misc_PowerStation", [1053.8208, 2324.5618, 0.2], [], 0, "CAN_COLLIDE"];
   _vehicle_678 = _this;
   _this setDir -698.55017;
-  _this setPos [1053.8208, 2324.5618, -0.0072989352];
+  _this setPos [1053.8208, 2324.5618, 0.2];
 };
 
 _vehicle_679 = objNull;
@@ -4752,6 +4755,7 @@ if (true) then
   _this = createVehicle ["MAP_garbage_paleta", [1182.5688, 2423.8359, 0.022083282], [], 0, "CAN_COLLIDE"];
   _vehicle_682 = _this;
   _this setDir -293.33441;
+  _this setVehicleInit "this allowDammage false;this enableSimulation false;";
   _this setPos [1182.5688, 2423.8359, 0.022083282];
 };
 
@@ -4830,6 +4834,7 @@ if (true) then
   _this = createVehicle ["MAP_Piskoviste", [1215.6775, 2435.5618, 0.32013577], [], 0, "CAN_COLLIDE"];
   _vehicle_740 = _this;
   _this setDir -86.052368;
+  _this setVehicleInit "this allowDammage false;this enableSimulation false;";
   _this setPos [1215.6775, 2435.5618, 0.32013577];
 };
 
@@ -4848,6 +4853,7 @@ if (true) then
   _this = createVehicle ["MAP_dirthump03", [1216.786, 2476.9634, -2.4193063], [], 0, "CAN_COLLIDE"];
   _vehicle_772 = _this;
   _this setDir 112.27808;
+  _this setVehicleInit "this allowDammage false;this enableSimulation false;";
   _this setPos [1216.786, 2476.9634, -2.4193063];
 };
 
@@ -6289,16 +6295,6 @@ if (true) then
   _this setPos [1140.6465, 2446.4919, 10.961534];
 };
 
-_vehicle_1584 = objNull;
-if (true) then
-{
-  _this = createVehicle ["MAP_PoliclinicCross", [1294.8375, 2427.5371, -0.23541112], [], 0, "CAN_COLLIDE"];
-  _vehicle_1584 = _this;
-  _this setDir -176.79802;
-  _this setVehicleInit "this setvectorup [0,0,1]";
-  _this setPos [1294.8375, 2427.5371, -0.23541112];
-};
-
 _vehicle_1588 = objNull;
 if (true) then
 {
@@ -6996,6 +6992,7 @@ if (true) then
   _this = createVehicle ["MAP_humps_dirt", [1190.1628, 2349.7041, -1.3630593], [], 0, "CAN_COLLIDE"];
   _vehicle_1807 = _this;
   _this setDir -569.24854;
+  _this setVehicleInit "this allowDammage false;this enableSimulation false;";
   _this setPos [1190.1628, 2349.7041, -1.3630593];
 };
 
@@ -10673,6 +10670,7 @@ if (true) then
   _this = createVehicle ["MAP_garbage_paleta", [1169.2721, 2574.2207, 0.022168636], [], 0, "CAN_COLLIDE"];
   _vehicle_3516 = _this;
   _this setDir 7.1931877;
+  _this setVehicleInit "this allowDammage false;this enableSimulation false;";
   _this setPos [1169.2721, 2574.2207, 0.022168636];
 };
 
