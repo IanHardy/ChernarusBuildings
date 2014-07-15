@@ -1073,6 +1073,7 @@ if (true) then
   _this = createVehicle ["MAP_Piskoviste", [4456.5454, 8300.2441, 0.32460874], [], 0, "CAN_COLLIDE"];
   _vehicle_335 = _this;
   _this setDir -47.321766;
+  _this setVehicleInit "this allowDammage false;this enableSimulation false;";
   _this setPos [4456.5454, 8300.2441, 0.32460874];
 };
 
@@ -1135,6 +1136,7 @@ if (true) then
   _this = createVehicle ["MAP_Piskoviste", [4483.2422, 8310.6865, 0.35910681], [], 0, "CAN_COLLIDE"];
   _vehicle_361 = _this;
   _this setDir -47.321766;
+  _this setVehicleInit "this allowDammage false;this enableSimulation false;";
   _this setPos [4483.2422, 8310.6865, 0.35910681];
 };
 
