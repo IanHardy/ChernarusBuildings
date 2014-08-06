@@ -6544,12 +6544,35 @@ if (true) then
 };
 
 /*
-****************************************************************************************************
+*****************************************************************************************************************************************************
     Update - 04/08/2014 --- Added Industrial Area
-        Add "warehouse" to mission.sqm to stop "warehouse" error.
-****************************************************************************************************
+	  a)Default option is MAP_Ind_Pec_03b.
+		  This will not cause any errors.
+		
+		b)Optional building is Land_Ind_Pec_03a. This is enterable and spawns loot.
+		  IMPORTANT: Using this option will cause a 'missing file "warehouse" error' on connection.
+	               To fix this add "warehouse" to the AddOns section in your mission.sqm to stop the "warehouse" error.
+*****************************************************************************************************************************************************
 */
 
+// DEFAULT BUILDING
+//
+//
+_vehicle_880 = objNull;
+if (true) then
+{
+  _this = createVehicle ["MAP_Ind_Pec_03b", [4518.3008, 2297.3406, -0.074109785], [], 0, "CAN_COLLIDE"];
+  _vehicle_880 = _this;
+  _this setDir -66.776543;
+  _this setVehicleInit "this setvectorup [0,0,1]";
+  _this setPos [4518.3008, 2297.3406, -0.074109785];
+};
+
+// OPTIONAL BUILDING
+// To use this option delete the above vehicle entry and uncomment the blow one. Remove /* and */
+// If you use this one remember to add "warehouse" to your AddOns section in your mission.sqm!
+//
+/*
 _vehicle_881 = objNull;
 if (true) then
 {
@@ -6560,6 +6583,9 @@ if (true) then
   _this setVehicleInit "this setvectorup [0,0,1]";
   _this setPos [4511.1724, 2296.4041, 5.3012118];
 };
+*/
+
+
 
 _vehicle_891 = objNull;
 if (true) then
